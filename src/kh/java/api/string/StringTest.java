@@ -15,7 +15,7 @@ public class StringTest {
 		StringTest s = new StringTest();
 //		s.test1();
 //		s.test2();
-		s.test3();
+		s.test3(); 
 	}
 	
 	public void test1() {

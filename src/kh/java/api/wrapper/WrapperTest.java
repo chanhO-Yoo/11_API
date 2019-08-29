@@ -31,17 +31,23 @@ public class WrapperTest {
 	 */
 	public void test1() {
 		int num = 100;
+		float f = 100.0f;
 		//Wrapper클래스는 기본형(값)을 감싸는 클래스
 		Integer i = new Integer(100);
 		
 		//객체로써 필드/메서드의 사용이 가능하다.
 		i.intValue();//실제 값을 리턴
+		int k = i.MAX_VALUE;
 		
 		//autoboxing & autounboxing
 		Integer j = 200; //기본형 -> 참조형으로 자동형변환
+		Float f2 = 10.0f;
 		//참조형 -> 기본형으로 자동 형변환
 		System.out.println(j+num);
 //		System.out.println(j.intValue()+num);
+		
+		System.out.println(j+f2);
+	
 	}
 	
 
