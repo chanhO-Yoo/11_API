@@ -7,8 +7,8 @@ import java.util.GregorianCalendar;
 public class CalendarTest {
 	public static void main(String[] args) {
 		CalendarTest c = new CalendarTest();
-//		c.test1();
-		c.test2();
+		c.test1();
+//		c.test2();
 //		c.test3();
 //		c.test4();
 //		c.test5();
@@ -16,8 +16,8 @@ public class CalendarTest {
 	
 	public void test1() {
 //		Calendar today = new Calendar();
-		Calendar today = Calendar.getInstance();
-//		Calendar today = new GregorianCalendar();
+//		Calendar today = Calendar.getInstance();
+		Calendar today = new GregorianCalendar();
 		
 		System.out.println(today);
 		
